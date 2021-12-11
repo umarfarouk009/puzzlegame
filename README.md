@@ -1,14 +1,13 @@
-<h1><img align="left" width="80" height="80" src="https://github.com/retrx0/8puzzle/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" style = "float:left" alt="logo"> 
+<h1><img align="left" width="80" height="80" src="https://github.com/umarfarouk009/8puzzle/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" style = "float:left" alt="logo"> 
 8puzzle</h1>
 
-8 puzzle game for android
+8 puzzle game for android by Umar Farouk, [University of Debrecen](https://www.edu.unideb.hu), Hungary.
+Developed with google sign in API and motion (shake) sensor to shuffle.
 
-<img src = "https://github.com/retrx0/8puzzle/blob/master/rnds/home.png" height = "550" width = "300"></img>
-## AI
-* Heuristic - AStar
+<img src = "https://github.com/umarfarouk009/8puzzle/blob/master/rnds/home.png" height = "550" width = "300"></img>
 
 ## Libraries
+* [Google Sign In API](https://developers.google.com/identity/sign-in/android)
 
 ## Useful Links
-* [fxects.com](https://fxects.000webhostapp.com) - Created by **me** :)
 * [material.io](https://material.io) - Google's Material Theme
