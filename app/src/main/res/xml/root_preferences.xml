@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Settings">
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:visibility="visible"
+        app:title="@string/display_header">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_dark_pref_key"
+            android:title="Auto Dark Mode" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="darkmode_switch_pref"
+            android:title="Dark Mode" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/other_header">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/list_items"
+            android:entryValues="@array/list_items"
+            android:key="grid_size"
+            android:title="Grid Size" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="display_time_pref"
+            android:title="Display Time" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

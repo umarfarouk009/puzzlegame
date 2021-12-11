@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">8puzzle</string>
+    <string name="solve_btn_text">I give up</string>
+    <string name="menu_settings_text">Settings</string>
+    <string name="menu_about_text">About</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="other_header">Other</string>
+    <string name="display_header">Appearance</string>
+
+    <string name="list_item_1">3x3</string>
+    <string name="list_item_2">4x4</string>
+    <string-array name="list_items">
+        <item>3x3</item>
+        <item>4x4</item>
+    </string-array>
+
+    <!--Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+    <string name="goal">Moves to Goal: </string>
+    <string name="moves">Moves: </string>
+    <string name="shuffle">Shuffle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_heading">About</string>
+    <string name="grid_size">Grid Size</string>
+</resources>

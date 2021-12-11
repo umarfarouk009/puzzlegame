@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimarySimilar</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:popupTheme" tools:targetApi="lollipop">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:tint">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Dark theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorPrimarySimilar</item>
+        <item name="android:background">#222222</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:popupTheme" tools:targetApi="lollipop">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <style name="StandardLight" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:popupTheme" tools:targetApi="lollipop">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/colorAccent</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">true</item>
+    </style>
+
+    <style name="StandardDark" parent="DarkTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:background">#222222</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:popupTheme" tools:targetApi="lollipop">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:windowBackground">#222222</item>
+        <item name="android:colorBackground">#222222</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:drawableTint" tools:targetApi="m">@color/colorAccent</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">true</item>
+    </style>
+
+</resources>
